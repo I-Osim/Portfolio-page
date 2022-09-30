@@ -178,6 +178,10 @@ body {
     transition: transform 0.1s;
 }
 
+#education-body {
+    max-width: 100%;
+}
+
 .education-wrapper {
     position: relative;
     height: 70em;
@@ -221,6 +225,49 @@ body {
 }
 
 .education-homebutton a:hover {
+    color: rgb(175, 1, 113);
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
+}
+
+#work-body {
+    max-width: 100%;
+}
+
+.work-wrapper {
+    position: relative;
+    height: 70em;
+    max-width: 100%;
+    margin: auto;
+}
+
+.work-head {
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    height: 3em;
+}
+
+.work-head p {
+    margin: 0%;
+    padding-top: 0.2em;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.work-text {
+    font-size: larger;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0ch;
+    padding: 1em;
+    margin: 1em;
+    border: solid 3em white;
+}
+
+.work-homebutton a :hover {
     color: rgb(175, 1, 113);
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.1s;
