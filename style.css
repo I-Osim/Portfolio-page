@@ -61,14 +61,19 @@ body {
 }
 
 #sections a:hover {
-    color: #D8D8D8;
-
+    color: rgb(175, 1, 113);
 }
 
 .linkedin {
     position: absolute;
     text-decoration: none;
+    /* transition: tranform 3s; */
 
+}
+
+.linkedin:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
 }
 
 .profile {
@@ -77,10 +82,20 @@ body {
     text-decoration: none;
 }
 
+.profile:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
+}
+
 .education {
     position: absolute;
     left: 21.5em;
     text-decoration: none;
+}
+
+.education:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
 }
 
 .experience {
@@ -88,13 +103,125 @@ body {
     left: 32.5em;
 }
 
+.experience:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
+}
+
 .skills {
     position: absolute;
     left: 42.5em;
+}
+
+.skills:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
 }
 
 .contact {
 
     position: absolute;
     left: 48.5em;
+}
+
+.contact:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
+}
+
+#profile-body {
+    max-width: 100%;
+}
+
+#profile-wrapper {
+    position: relative;
+    height: 70em;
+    max-width: 100%;
+    margin: auto;
+}
+
+.profilehead {
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    height: 3em;
+}
+
+.profilehead p {
+    margin: 0%;
+    padding-top: 0.2em;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.profile-text {
+    font-size: larger;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3em white;
+}
+
+.profile-homebutton a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-family: monospace;
+}
+
+.profile-homebutton a:hover {
+    color: rgb(175, 1, 113);
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
+}
+
+.education-wrapper {
+    position: relative;
+    height: 70em;
+    max-width: 100%;
+    margin: auto;
+}
+
+.eduaction-head {
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    height: 3em;
+}
+
+.education-head-text {
+    margin: 0%;
+    padding-top: 0.2em;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.education-timeline ul {
+    font-size: larger;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0ch;
+    padding: 1em;
+    margin: 1em;
+    border: solid 3em white;
+}
+
+.education-homebutton a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-family: monospace;
+}
+
+.education-homebutton a:hover {
+    color: rgb(175, 1, 113);
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.1s;
 }
