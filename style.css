@@ -6,26 +6,95 @@ body {
 
 #homepage {
     position: relative;
-    background-image: url('../Portfolio-page/Images/creative-flat-lay-photo-workspace-desk.jpg');
+    height: 70em;
+    max-width: 100%;
+    margin: auto;
+}
+
+#homepage img {
+    display: flex;
+    justify-content: center;
+    position: relative;
     height: 100%;
     width: 100%;
-
+    margin: auto;
 }
 
 #name {
     padding-top: 5em;
-    text-align: center;
+    text-align: left;
     font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
+    padding-left: 8em;
+    position: absolute;
+    bottom: 45em;
+    transition: transform 0.5s;
+}
+
+#name h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+#name:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: transform 1s;
+}
+
+#name h1 a:hover {
+    color: rgb(127, 180, 20);
 }
 
 #sections {
-    display: inline-flex;
-    flex-direction: row;
-    padding: 5em;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    padding: 3em;
+    bottom: 50%;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
 
+#sections a {
+    color: black;
+    text-decoration: none;
+}
+
+#sections a:hover {
+    color: #D8D8D8;
+
+}
+
+.linkedin {
+    position: absolute;
+    text-decoration: none;
+
+}
+
+.profile {
+    position: absolute;
+    left: 15em;
+    text-decoration: none;
+}
+
+.education {
+    position: absolute;
+    left: 21.5em;
+    text-decoration: none;
+}
+
+.experience {
+    position: absolute;
+    left: 32.5em;
+}
+
+.skills {
+    position: absolute;
+    left: 42.5em;
+}
+
+.contact {
+
+    position: absolute;
+    left: 48.5em;
 }
