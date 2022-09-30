@@ -6,8 +6,10 @@ body {
 
 #homepage {
     position: relative;
-    background-image: url(./pexels-s-migaj-747964.jpg);
+    background-image: url('../Portfolio-page/Images/creative-flat-lay-photo-workspace-desk.jpg');
     height: 100%;
+    width: 100%;
+
 }
 
 #name {
@@ -23,7 +25,6 @@ body {
     flex-direction: row;
     padding: 5em;
     justify-content: center;
-
     margin-left: auto;
     margin-right: auto;
 
