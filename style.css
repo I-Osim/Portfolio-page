@@ -1,14 +1,30 @@
 body {
     margin: 0%;
     max-width: 100%;
+    max-height: 100%;
 }
 
 #homepage {
-    border: solid white;
-    width: 100%;
-    /* background-image: url(./); */
+    position: relative;
+    background-image: url(./pexels-s-migaj-747964.jpg);
+    height: 100%;
 }
 
 #name {
+    padding-top: 5em;
     text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#sections {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
