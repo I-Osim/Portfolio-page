@@ -1,0 +1,54 @@
+html {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: 182747;
+    color: aliceblue;
+}
+
+a:link {
+    text-decoration-line: none;
+    display: inline;
+    color: white;
+}
+
+a:visited {
+    text-decoration-line: overline;
+    display: inline;
+    color: white;
+}
+
+a:active {
+    text-decoration-line: overline;
+    display: inline;
+    color: white;
+}
+
+#flex-container {
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    font: 2em;
+}
+
+hr {
+    width: 100%;
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: grey;
+}
+
+.links {
+    display: block;
+    align-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.head-text
+{
+    font-family: 'Roboto', sans-serif;
+}
