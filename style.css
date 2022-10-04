@@ -6,9 +6,10 @@ body {
 
 #homepage {
     position: relative;
-    height: 70em;
+    height: 60em;
     max-width: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 #homepage img {
@@ -28,7 +29,7 @@ body {
     font-weight: 100;
     padding-left: 8em;
     position: absolute;
-    bottom: 45em;
+    bottom: 38em;
     transition: transform 0.5s;
 }
 
@@ -49,7 +50,7 @@ body {
 #sections {
     display: inline-block;
     padding: 3em;
-    bottom: 50%;
+    bottom: 21em;
     font-size: 1.3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -155,20 +156,54 @@ body {
     font-size: 2em;
 }
 
+
+#profilemainsection {
+    /* border: 1px solid white;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center; */
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 2rem 2rem;
+
+}
+
 .profile-text {
     font-size: larger;
     font-family: cursive;
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 3em white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
 }
+
+.profile-img {
+    width: 20em;
+    height: 16em;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    /* display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    vertical-align: middle; */
+}
+
+#profilemainsection img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
 
 .profile-homebutton a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: black;
-    font-size: 1.3em;
+    font-size: 1.9em;
     font-family: monospace;
 }
 
@@ -220,7 +255,7 @@ body {
     justify-content: center;
     text-decoration: none;
     color: black;
-    font-size: 1.3em;
+    font-size: 1.9em;
     font-family: monospace;
 }
 
@@ -267,7 +302,16 @@ body {
     border: solid 3em white;
 }
 
-.work-homebutton a :hover {
+.work-homebutton a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.9em;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.work-homebutton a:hover {
     color: rgb(175, 1, 113);
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.1s;
